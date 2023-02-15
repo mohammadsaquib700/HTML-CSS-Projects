@@ -1,0 +1,139 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+    
+serch{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+button{
+    background-color: #129B9B;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #129B9B;
+    border: 1px solid #000000;
+}
+header{
+    padding: 15px 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    
+}
+nav ul li a{
+    color: #000000;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.main-left-section h1{
+    font-weight: 800;
+    font-size: 35px;
+}
+.main-left-section h1 span{
+    font-weight: 800;
+    font-size: 35px;
+    background-color: #dfdfe0;
+}
+
+.main-left-section p{
+    font-size: 25px;
+}
+.main-left-section span{
+    color: #129B9B;
+    font-weight: 700;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+.main-right-section-btn{
+        display: flex;
+        /* position: absolute; */
+        align-items: center;
+        /* justify-content: center; */
+        gap: 30px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer{
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+footer ul li a{
+    color: #000000;
+}
