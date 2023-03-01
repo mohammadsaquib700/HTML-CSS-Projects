@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Photos/mainBackground.png) ;
+    height: 125vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+body{
+    background-color: #F1F4F5;
+}
+/* Designing Navigation Bar */
+nav{
+    display: flex;
+    margin: 0 200px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+nav img{
+    width: 120px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 330px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 30px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    width: 1150px;
+    align-content: center;
+    margin: auto;
+}
+/* Designing Landing Content */
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 80px;
+    margin-left: 150px ;
+    
+}
+.landing-content h1{
+    font-size: 75px ;
+    color: white;
+}
+.landing-content p{
+    padding: 40px 0;
+    color: white;
+    font-size: 18px;
+}
+.landing-content button{
+    background-color: #6663E9;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Designing Logo Name Section */
+.logo-section{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 150px 50px;
+    padding: 70px 25px;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    width: 1250px;
+}
+/* Designing Card Section */
+.cards-section h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+    font-size: 60px ;
+    font-weight: 600;
+    text-align: center;
+}
+.first-line{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card-img{
+    height: 400px;
+    width: 365px;
+    border-radius: 20px;
+    position: relative;
+}
+.first-line div:nth-child(2){
+    margin-top: 20px;
+}
+.first-line div:nth-child(3){
+    margin-top: 40px;
+}
+.first-line .description{
+    width: 320px;
+    height: 120px;
+    position: absolute;
+    top: 1550px;
+    margin-left: 20px;
+    z-index: 1;
+    box-shadow: 0px 4px 120px rgb(58 86 78 / 20%);
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+.description h3{
+    font-size: 22px;
+}
+.description span{
+    color: #6663E9;
+    font-weight: 600;
+    font-size: 18px;
+}
+.description button{
+    background-color: #6663E9;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.second-line{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.second-line div:nth-child(2){
+    margin-top: 20px;
+}
+.second-line div:nth-child(3){
+    margin-top: 40px;
+}
+.second-line .description{
+    width: 320px;
+    height: 120px;
+    position: absolute;
+    top: 2050px;
+    margin-left: 20px;
+    z-index: 1;
+    box-shadow: 0px 4px 120px rgb(58 86 78 / 20%);
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+.third-line{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.third-line div:nth-child(2){
+    margin-top: 20px;
+}
+.third-line div:nth-child(3){
+    margin-top: 40px;
+}
+.third-line .description{
+    width: 320px;
+    height: 120px;
+    position: absolute;
+    top: 2600px;
+    margin-left: 20px;
+    z-index: 1;
+    box-shadow: 0px 4px 120px rgb(58 86 78 / 20%);
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+}
+/* Designing the feature section */
+.features-1{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+img[alt="feature-bgc1"]{
+    width: 550px;
+    position: relative;
+    
+}
+img[alt="feature-img1"]{
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    position: absolute;
+    left: 103px;
+    margin-top:-60px;
+    z-index: 0;
+}
+.features-1 h1{
+    font-size: 60px;
+}
+.features-1 div{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.features-1 p{
+    padding: 20px 0;
+    color: #586B9E;
+    font-size: 18px;
+}
+.features-1 button{
+    background-color: #6663E9;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 30px;
+    font-size: 18px;
+    color: white;
+}
+.features-2{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+img[alt="feature-bgc2"]{
+    width: 730px;
+    height: 450px;
+    position: relative;
+    left: 50px;
+    
+}
+img[alt="feature-img2"]{
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    position: absolute;
+    right: 145px;
+    margin-top:-60px;
+    z-index: 0;
+}
+.features-2 h1{
+    font-size: 60px;
+}
+.features-2 div{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.features-2 p{
+    padding: 20px 0;
+    color: #586B9E;
+    font-size: 18px;
+}
+.features-2 button{
+    background-color: #6663E9;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 30px;
+    font-size: 18px;
+    color: white;
+}
+/* Designing Subscription Section */
+.subscription-section{
+    background-color: #6663E9;
+    margin: 30px 70px;
+    border-radius: 60px;
+    padding: 70px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.subscription-section h1{
+    font-size: 50px;
+}
+.subscription-section p{
+    padding: 30px 0;
+}
+.subscription-section input{
+    padding: 20px 25px;
+    width: 500px;
+    border: none;
+    border-radius: 35px;
+    background-color: #5654D1;
+    position: relative;
+    
+}
+.subscription-section input:focus{
+    outline: none;
+}
+.subscription-section img{
+    position: absolute;
+    z-index: 1;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.subscription-section button{
+    background-color: #ffffff;
+    color: #5654D1;
+    border: none;
+    border-radius: 35px;
+    padding: 17px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+/* Designing Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    margin-left: 60px;
+}
+footer .logos{
+    margin-right: 200px;
+}
+footer div{
+    padding: 20px;
+}
+footer img[alt="main-logo"]{
+    width: 150px;
+    margin-left: 20px;
+}
+img[alt="facebook"]{
+    margin-right: 20px;
+}
+img[alt="twitter"]{
+    margin-right: 20px;
+}
+footer ul li{
+    list-style: none;
+    line-height: 40px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
